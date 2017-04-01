@@ -1,5 +1,7 @@
-PATH
-  remote: ../Xcodeproj
+GIT
+  remote: git://github.com/ruenzuo/xcodeproj
+  revision: 822cad37e13442bffb71612289c1a02faa2f3a16
+  branch: resolve_build_setting
   specs:
     xcodeproj (1.4.3)
       CFPropertyList (~> 2.3.3)
