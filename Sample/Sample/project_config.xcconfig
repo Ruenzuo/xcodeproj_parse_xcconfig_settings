@@ -1,0 +1,9 @@
+//
+//  project_config.xcconfig
+//  Sample
+//
+//  Created by Renzo Crisóstomo on 01.04.17.
+//  Copyright © 2017 Renzo Crisóstomo. All rights reserved.
+//
+
+USER_DEFINED = PROJECT_CONFIG
