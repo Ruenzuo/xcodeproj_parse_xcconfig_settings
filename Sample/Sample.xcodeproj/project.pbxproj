@@ -27,6 +27,7 @@
 		3F4E63BA1E8EF6DC00E88126 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3F4E63BC1E8EF6DC00E88126 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3F9ED1341E902A9100A03C89 /* project_config.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = project_config.xcconfig; sourceTree = "<group>"; };
+		3F9ED1351E902B4D00A03C89 /* target_config.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = target_config.xcconfig; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,6 +70,7 @@
 				3F4E63BC1E8EF6DC00E88126 /* Info.plist */,
 				3F4E63AB1E8EF6DC00E88126 /* Supporting Files */,
 				3F9ED1341E902A9100A03C89 /* project_config.xcconfig */,
+				3F9ED1351E902B4D00A03C89 /* target_config.xcconfig */,
 			);
 			path = Sample;
 			sourceTree = "<group>";
@@ -278,23 +280,27 @@
 		};
 		3F4E63C01E8EF6DC00E88126 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3F9ED1351E902B4D00A03C89 /* target_config.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = Sample/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = de.ruenzuo.Sample;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				USER_DEFINED = "$(inherited) TARGET";
 			};
 			name = Debug;
 		};
 		3F4E63C11E8EF6DC00E88126 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3F9ED1351E902B4D00A03C89 /* target_config.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = Sample/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = de.ruenzuo.Sample;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				USER_DEFINED = "$(inherited) TARGET";
 			};
 			name = Release;
 		};
