@@ -227,6 +227,11 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-framework",
+					UIKit,
+				);
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				USER_DEFINED = "$(inherited) PROJECT";
@@ -271,6 +276,11 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
 				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-framework",
+					UIKit,
+				);
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				USER_DEFINED = "$(inherited) PROJECT";
@@ -285,6 +295,11 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = Sample/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = (
+					"${inherited}",
+					"-framework",
+					Foundation,
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = de.ruenzuo.Sample;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				USER_DEFINED = "$(inherited) TARGET";
@@ -298,6 +313,11 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = Sample/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = (
+					"${inherited}",
+					"-framework",
+					Foundation,
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = de.ruenzuo.Sample;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				USER_DEFINED = "$(inherited) TARGET";

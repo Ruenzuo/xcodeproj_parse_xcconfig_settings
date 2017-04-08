@@ -1,6 +1,6 @@
 GIT
   remote: git://github.com/ruenzuo/xcodeproj
-  revision: 822cad37e13442bffb71612289c1a02faa2f3a16
+  revision: 1e8604708e4a96219deacc693f863b4b5e315f2c
   branch: resolve_build_setting
   specs:
     xcodeproj (1.4.3)

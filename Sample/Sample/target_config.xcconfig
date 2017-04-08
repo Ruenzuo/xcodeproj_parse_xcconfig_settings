@@ -7,3 +7,4 @@
 //
 
 USER_DEFINED = $(inherited) TARGET_CONFIG
+OTHER_LDFLAGS = $(inherited) -framework CoreData
