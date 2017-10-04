@@ -13,6 +13,7 @@
 		3F4E63B61E8EF6DC00E88126 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F4E63B41E8EF6DC00E88126 /* Main.storyboard */; };
 		3F4E63B81E8EF6DC00E88126 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3F4E63B71E8EF6DC00E88126 /* Assets.xcassets */; };
 		3F4E63BB1E8EF6DC00E88126 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F4E63B91E8EF6DC00E88126 /* LaunchScreen.storyboard */; };
+		79D856571F7A7FAD00D8FA19 /* imported.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 79D856561F7A7FAD00D8FA19 /* imported.xcconfig */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,8 @@
 		3F4E63BC1E8EF6DC00E88126 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3F9ED1341E902A9100A03C89 /* project_config.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = project_config.xcconfig; sourceTree = "<group>"; };
 		3F9ED1351E902B4D00A03C89 /* target_config.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = target_config.xcconfig; sourceTree = "<group>"; };
+		795895AB1F7BF33C008DFF48 /* another_imported.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = another_imported.xcconfig; sourceTree = "<group>"; };
+		79D856561F7A7FAD00D8FA19 /* imported.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = imported.xcconfig; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,6 +74,8 @@
 				3F4E63AB1E8EF6DC00E88126 /* Supporting Files */,
 				3F9ED1341E902A9100A03C89 /* project_config.xcconfig */,
 				3F9ED1351E902B4D00A03C89 /* target_config.xcconfig */,
+				79D856561F7A7FAD00D8FA19 /* imported.xcconfig */,
+				795895AB1F7BF33C008DFF48 /* another_imported.xcconfig */,
 			);
 			path = Sample;
 			sourceTree = "<group>";
@@ -141,6 +146,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				79D856571F7A7FAD00D8FA19 /* imported.xcconfig in Resources */,
 				3F4E63BB1E8EF6DC00E88126 /* LaunchScreen.storyboard in Resources */,
 				3F4E63B81E8EF6DC00E88126 /* Assets.xcassets in Resources */,
 				3F4E63B61E8EF6DC00E88126 /* Main.storyboard in Resources */,

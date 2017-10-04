@@ -1,0 +1,9 @@
+//
+//  another_imported.xcconfig
+//  Sample
+//
+//  Created by Crisostomo Medina, Renzo on 27.09.17.
+//  Copyright © 2017 Renzo Crisóstomo. All rights reserved.
+//
+
+ANOTHER_BUILD_CONFIG = SHOULD_NOT

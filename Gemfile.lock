@@ -1,12 +1,10 @@
 GIT
-  remote: git://github.com/ruenzuo/xcodeproj
-  revision: 1e8604708e4a96219deacc693f863b4b5e315f2c
-  branch: resolve_build_setting
+  remote: git://github.com/CocoaPods/Xcodeproj.git
+  revision: 07607507950d971f7271c8f288e0b14cc11ea87a
   specs:
-    xcodeproj (1.4.3)
+    xcodeproj (1.5.2)
       CFPropertyList (~> 2.3.3)
-      activesupport (>= 3)
-      claide (>= 1.0.1, < 2.0)
+      claide (>= 1.0.2, < 2.0)
       colored2 (~> 3.1)
       nanaimo (~> 0.2.3)
 
@@ -14,37 +12,15 @@ GEM
   remote: https://rubygems.org/
   specs:
     CFPropertyList (2.3.5)
-    activesupport (4.2.8)
-      i18n (~> 0.7)
-      minitest (~> 5.1)
-      thread_safe (~> 0.3, >= 0.3.4)
-      tzinfo (~> 1.1)
-    byebug (9.0.6)
-    claide (1.0.1)
-    coderay (1.1.1)
+    claide (1.0.2)
     colored2 (3.1.2)
-    i18n (0.8.1)
-    method_source (0.8.2)
-    minitest (5.10.1)
     nanaimo (0.2.3)
-    pry (0.10.4)
-      coderay (~> 1.1.0)
-      method_source (~> 0.8.1)
-      slop (~> 3.4)
-    pry-byebug (3.4.2)
-      byebug (~> 9.0)
-      pry (~> 0.10)
-    slop (3.6.0)
-    thread_safe (0.3.6)
-    tzinfo (1.2.3)
-      thread_safe (~> 0.1)
 
 PLATFORMS
   ruby
 
 DEPENDENCIES
-  pry-byebug
   xcodeproj!
 
 BUNDLED WITH
-   1.14.6
+   1.15.4
